@@ -10,6 +10,7 @@ type Props = {
 
 const ImageGallery: React.FC<Props> = (props) => {
   const { images, onExpand } = props;
+  console.log(images);
 
   return (
     <ul className={css.gallery}>

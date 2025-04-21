@@ -1,0 +1,10 @@
+.loadButton {
+  display: block;
+  margin: 10px auto;
+  background-color: blue;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 2px 4px;
+  cursor: pointer;
+}

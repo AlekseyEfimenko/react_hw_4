@@ -12,6 +12,8 @@ const ImageCard: React.FC<Props> = (props) => {
   const { description, urls } = imageInfo;
   const { full, regular } = urls;
 
+  console.log(imageInfo);
+
   return (
     <div>
       <img
