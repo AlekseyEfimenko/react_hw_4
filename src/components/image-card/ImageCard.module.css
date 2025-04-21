@@ -1,0 +1,9 @@
+.cardImage {
+  width: 100%;
+  object-fit: cover;
+  transition: transform ease-out .3s;
+}
+
+.cardImage:hover {
+  transform: scale(1.05);
+}

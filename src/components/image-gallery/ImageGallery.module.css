@@ -1,0 +1,16 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  list-style: none;
+  margin-top: 10px;
+}
+
+.galleryItem {
+  flex-basis: calc((100% - (3 * 6px)) / 4);
+  min-width: 300px;
+  object-fit: cover;
+  height: 200px;
+  overflow: hidden;
+  cursor: pointer;
+}
