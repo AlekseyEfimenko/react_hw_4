@@ -1,0 +1,24 @@
+.header {
+  padding: 10px 0;
+  background-color: blue;
+}
+
+.form {
+  margin: 0 auto;
+  width: 400px;
+  position: relative;
+}
+
+.formSearch {
+  width: 100%;
+  padding-left: 30px;
+}
+
+.formSubmitButton {
+  position: absolute;
+  left: 0;
+  background-color: transparent;
+  border: none;
+  padding-top: 4px;
+  cursor: pointer;
+}
